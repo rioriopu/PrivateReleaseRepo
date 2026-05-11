@@ -1,0 +1,28 @@
+﻿[
+  {
+    "Name": "Mirage Mirror",
+    "InternalName": "MirageMirror",
+    "Author": "Wh1s",
+    "AssemblyVersion": "0.1.0.60",
+    "TestingAssemblyVersion": "0.1.0.60",
+    "RepoUrl": "https://github.com/rioriopu/MirageMirror",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "Tags": ["glamour", "fashion", "mirage"],
+    "CategoryTags": ["UI"],
+    "Punchline": "FFXIV用 ミラプリ支援プラグイン",
+    "Description": "Mirage Mirror は 自分好みのミラプリを取り込み、キャラクターに反映させることができるプラグインです。（クライアント側表示のため自身の中でミラプリを楽しめる！）\n他人のミラプリやサイト上のミラプリを自身でも使ってみたい or カスタムしたいという方におすすめのプラグインです。\n\n機能:\n- ターゲットプレイヤーの装備を視覚スキャンしてアイテム特定\n- mirapri / Eorzea Collection の URL からミラプリ構成を取り込み\n- 取り込み結果を「着てみる」 (ローカルプレビュー) で試着\n- お気に入り保存機能でいつでも取り込み内容を呼び出し可能\n- Glamourer連携対応\n\nコマンド:\n/miragemirror 設定画面の呼び出し。以下短縮コマンドとなります。\n/mmirror\n/mmr",
+    "IconUrl": "https://raw.githubusercontent.com/rioriopu/MirageMirror/main/icon.png",
+    "ImageUrls": [],
+    "Changelog": "多くの不具合修正、機能追加を実施しました。",
+    "DownloadLinkInstall": "https://github.com/rioriopu/MirageMirror/releases/latest/download/MirageMirror.zip",
+    "DownloadLinkUpdate":  "https://github.com/rioriopu/MirageMirror/releases/latest/download/MirageMirror.zip",
+    "DownloadLinkTesting": "https://github.com/rioriopu/MirageMirror/releases/latest/download/MirageMirror.zip",
+    "IsHide": false,
+    "IsTestingExclusive": true,
+    "AcceptsFeedback": true,
+    "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
+    "DownloadCount": 0
+  }
+]
