@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "Name": "Mirage Mirror",
     "InternalName": "MirageMirror",
@@ -19,6 +19,32 @@
     "DownloadLinkInstall": "https://github.com/rioriopu/MirageMirror/releases/latest/download/MirageMirror.zip",
     "DownloadLinkUpdate":  "https://github.com/rioriopu/MirageMirror/releases/latest/download/MirageMirror.zip",
     "DownloadLinkTesting": "https://github.com/rioriopu/MirageMirror/releases/latest/download/MirageMirror.zip",
+    "IsHide": false,
+    "IsTestingExclusive": true,
+    "AcceptsFeedback": true,
+    "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
+    "DownloadCount": 0
+  },
+  {
+    "Name": "Artisan",
+    "InternalName": "Artisan",
+    "Author": "Taurenkey (Estell ver)",
+    "AssemblyVersion": "4.0.5.71",
+    "TestingAssemblyVersion": "4.0.5.71",
+    "RepoUrl": "https://github.com/rioriopu/PrivateReleaseRepo",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "Tags": ["crafting"],
+    "CategoryTags": ["Jobs"],
+    "Punchline": "A 'simple' crafting plugin. (Estell ver d1)",
+    "Description": "Artisan は本家 (PunishXIV/Artisan) を Estell 環境向けにビルドした派生版です。\n\nEstell ver d1 (4.0.5.7d1) の変更点:\n- CraftingList の Gather Item で GatherBuddyReborn (GBR) を検出対応 (本家は GatherBuddy のみ)\n- AToolsEnabled の IDalamudPlugin キャストエラー (InventoryTools) を InstalledPlugins.Any ベースに変更して回避\n\n注意: 本家のアップデートに追随していくため、機能は本家と同じです。",
+    "IconUrl": "https://s3.puni.sh/media/plugin/6/icon-3h8wd5b9qr.png",
+    "ImageUrls": [],
+    "Changelog": "Estell ver d1: GatherBuddyReborn support in CraftingList; fix InventoryTools IDalamudPlugin cast error in AToolsEnabled.",
+    "DownloadLinkInstall": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/Artisan-4.0.5.7d1/Artisan.zip",
+    "DownloadLinkUpdate":  "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/Artisan-4.0.5.7d1/Artisan.zip",
+    "DownloadLinkTesting": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/Artisan-4.0.5.7d1/Artisan.zip",
     "IsHide": false,
     "IsTestingExclusive": true,
     "AcceptsFeedback": true,
