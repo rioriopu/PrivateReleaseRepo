@@ -72,7 +72,7 @@
     "DownloadLinkUpdate":  "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/MaskedCarnivale-0.0.0.12/MaskedCarnivale.zip",
     "DownloadLinkTesting": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/MaskedCarnivale-0.0.0.12/MaskedCarnivale.zip",
     "IsHide": false,
-    "IsTestingExclusive": true,
+    "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
     "DownloadCount": 0
