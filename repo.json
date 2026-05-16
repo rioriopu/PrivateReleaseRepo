@@ -90,7 +90,7 @@
     "Tags": ["streaming", "obs", "discord", "privacy", "recording", "wda"],
     "CategoryTags": ["UI", "Utility"],
     "Punchline": "FFXIV ウィンドウを OBS / Discord キャプチャから除外 (WDA_EXCLUDEFROMCAPTURE)",
-    "Description": "FFXIV のメインウィンドウに Win32 の SetWindowDisplayAffinity(WDA_EXCLUDEFROMCAPTURE) を適用し、OBS / Discord などの画面キャプチャに映らないようにします。\n\n■ 仕組み\nWindows 10 (2004 / Build 19041) 以降の WDA_EXCLUDEFROMCAPTURE フラグを HWND に設定します。これにより、当該ウィンドウは画面キャプチャ API (Desktop Duplication / Graphics Capture / GDI BitBlt) から除外されます。\n\n■ コマンド\n/maskedalamud — トグル (引数なし)\n/maskedalamud on — 適用\n/maskedalamud off — 解除\n/maskedalamud toggle — トグル\n\n■ ホットキー\nCtrl + Shift + M でトグル (設定で無効化可能)\n\n■ 注意\n- 適用すると配信側だけでなく、Windows 標準のスクリーンショットや録画ツール (Xbox Game Bar 等) でも画面が黒く映ります\n- プラグイン無効化 / アンインストール / Dispose 時には自動で OFF に戻ります\n- WDA 非対応の古い Windows では効果がありません",
+    "Description": "FFXIV のメインウィンドウに Win32 の SetWindowDisplayAffinity(WDA_EXCLUDEFROMCAPTURE) を適用し、OBS / Discord などの画面キャプチャに映らないようにします。\n\n■ 仕組み\nWindows 10 (2004 / Build 19041) 以降の WDA_EXCLUDEFROMCAPTURE フラグを HWND に設定します。これにより、当該ウィンドウは画面キャプチャ API (Desktop Duplication / Graphics Capture / GDI BitBlt) から除外されます。\n\n■ コマンド\n/maskedalamud — トグル (引数なし)\n/maskedalamud on — 適用\n/maskedalamud off — 解除\n/maskedalamud toggle — トグル\n\n■ ホットキー\nCtrl + Shift + M でトグル (設定で無効化可能)\n\n■ 注意\n- プラグイン無効化 / アンインストール / Dispose 時には自動で OFF に戻ります\n- WDA 非対応の古い Windows では効果がありません",
     "IconUrl": "",
     "ImageUrls": [],
     "Changelog": "0.0.0.1: 新規作成。WDA_EXCLUDEFROMCAPTURE による FFXIV ウィンドウのキャプチャ除外。",
