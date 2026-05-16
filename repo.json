@@ -50,5 +50,31 @@
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
     "DownloadCount": 0
+  },
+  {
+    "Name": "Masked Carnivale",
+    "InternalName": "MaskedCarnivale",
+    "Author": "ProjectMimer (Limiana fork)",
+    "AssemblyVersion": "0.0.0.6",
+    "TestingAssemblyVersion": "0.0.0.6",
+    "RepoUrl": "https://github.com/Limiana/MaskedCarnivale",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "Tags": ["streaming", "obs", "discord", "capture", "privacy", "recording"],
+    "CategoryTags": ["UI", "Utility"],
+    "Punchline": "OBS / 録画用に Dalamud UI なしのゲーム画面を別ウィンドウへ複製",
+    "Description": "Masked Carnivale は、OBS や Discord の配信・録画時に Dalamud プラグインの UI を映さないようにするプラグインです (ProjectMimer 開発、Limiana fork)。\n\n■ 仕組み\nゲームの RenderTargetManager から UI を含まない backbuffer を取得し、D3D11 の Shared Texture (KeyedMutex) で別プロセス OutputWindow.exe に共有します。OutputWindow は受け取ったテクスチャを自分の swapchain に Present します。\n\nOBS / Discord はこの OutputWindow をキャプチャすることで、視聴者にはバニラ環境のゲーム画面が映ります。本人の FFXIV ウィンドウは普段通りに Dalamud UI ありで操作可能です。\n\n■ コマンド\n/carnivale — 設定ウィンドウを開く\n/carnivale enable — OutputWindow を起動\n/carnivale disable — OutputWindow を停止\n\n■ 注意事項\n- オーバーレイ系プラグイン (ImGui のウィンドウ) は隠せます\n- ゲーム本体に描画を加えるプラグイン (Penumbra のテクスチャ差替、Cammy のカメラ操作、TweaksHud のキャストバー変更等) は引き続き映ります\n- Dalamud のロゴはエスケープメニューに残るので、Dalamud 設定で非表示にする運用を推奨\n- マウスカーソルは Software Cursor に設定すれば OutputWindow にも表示できます\n\n■ クレジット\nオリジナル: https://github.com/ProjectMimer/MaskedCarnivale\nFork: https://github.com/Limiana/MaskedCarnivale",
+    "IconUrl": "",
+    "ImageUrls": [],
+    "Changelog": "0.0.0.6: Updated for 7.5",
+    "DownloadLinkInstall": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/MaskedCarnivale-0.0.0.6/MaskedCarnivale.zip",
+    "DownloadLinkUpdate":  "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/MaskedCarnivale-0.0.0.6/MaskedCarnivale.zip",
+    "DownloadLinkTesting": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/MaskedCarnivale-0.0.0.6/MaskedCarnivale.zip",
+    "IsHide": false,
+    "IsTestingExclusive": true,
+    "AcceptsFeedback": true,
+    "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
+    "DownloadCount": 0
   }
 ]
