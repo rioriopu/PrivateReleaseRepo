@@ -132,5 +132,38 @@
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
     "DownloadCount": 0
+  },
+  {
+    "Name": "AetherBars",
+    "InternalName": "AetherBars",
+    "Author": "Estell",
+    "AssemblyVersion": "1.0.0.0",
+    "TestingAssemblyVersion": "1.0.0.0",
+    "RepoUrl": "https://github.com/rioriopu/PrivateReleaseRepo",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "Tags": [
+      "job",
+      "gauge",
+      "hud",
+      "imgui"
+    ],
+    "CategoryTags": [
+      "UI"
+    ],
+    "Punchline": "ジョブのリソース・リキャストを ImGui で表示するジョブ HUD。",
+    "Description": "ジョブのリソースゲージ・リキャスト・スタック・バフ等を ImGui で描画するジョブ HUD です。\n\n機能:\n- 全21ジョブのリソースゲージ\n- リッチトラッカー (バフ/CD/プロック/対象DoT) + ロールアクション\n- 詠唱バー / GCD バー / MP バー\n- 軽減トラッカー\n- アイコン HUD (アクションアイコン + CDリング)\n- ゲーム純正のパラメータゲージ素材・スタック素材・フォントで描画\n\n表示位置・スケール・色をカスタマイズできます。",
+    "IconUrl": "",
+    "ImageUrls": [],
+    "Changelog": "初回リリース。全21ジョブのゲージ、リッチトラッカー、ロールアクション、詠唱/GCD/MPバー、軽減トラッカー、アイコンHUD。ゲーム純正素材・フォントで描画。",
+    "DownloadLinkInstall": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/AetherBars-1.0.0.0/AetherBars.zip",
+    "DownloadLinkUpdate": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/AetherBars-1.0.0.0/AetherBars.zip",
+    "DownloadLinkTesting": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/AetherBars-1.0.0.0/AetherBars.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
+    "DownloadCount": 0
   }
 ]
