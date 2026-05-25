@@ -200,5 +200,37 @@
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
     "DownloadCount": 0
+  },
+  {
+    "Name": "TradeVendor",
+    "InternalName": "TradeVendor",
+    "Author": "Estell",
+    "AssemblyVersion": "0.1.0.0",
+    "TestingAssemblyVersion": "0.1.0.0",
+    "RepoUrl": "https://github.com/rioriopu/PrivateReleaseRepo",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "Tags": [
+      "trade",
+      "automation",
+      "vending"
+    ],
+    "CategoryTags": [
+      "Utility"
+    ],
+    "Punchline": "複数トレード累積払い対応の自動取引プラグイン（試作版）",
+    "Description": "TradeVendor は FFXIV のトレードを自動化するプラグインです（試作版）。\n\n■ 3つの動作モード\n- 通常自動承認: トレード画面が開いたら自動で承認\n- 自動販売機モード: 相手が提示したアイテムを登録ルールと照合し、条件一致でギルを払って自動取引\n- 青燐水バレル自動取引(Toka): 複数トレードをまたいで累積支払いを管理。1回の上限100万Gを超える分は逆トレードで残額を自動清算\n\n■ 特徴\n- 取引対象アイテムを検索して選択可能（既定: 青燐水バレル）\n- 取引相手の自動検知・取引成立判定がクライアント言語に依存しない\n- 設定(DefaultConfig.json)とセッション状態(SessionState.json)を分離して管理\n\n■ コマンド\n/tradevendor — 設定画面を開く\n\n※ 試作版です。動作未保証の機能が含まれます。",
+    "IconUrl": "",
+    "ImageUrls": [],
+    "Changelog": "0.1.0.0 試作版（初回リリース）: 通常自動承認 / 自動販売機モード / 青燐水バレル自動取引(累積払い・逆トレード) を実装。取引対象アイテムの検索選択、言語非依存の相手検知・成立判定、設定とセッション状態の分離に対応。",
+    "DownloadLinkInstall": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/TradeVendor-0.1.0.0/TradeVendor.zip",
+    "DownloadLinkUpdate": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/TradeVendor-0.1.0.0/TradeVendor.zip",
+    "DownloadLinkTesting": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/TradeVendor-0.1.0.0/TradeVendor.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
+    "DownloadCount": 0
   }
 ]
