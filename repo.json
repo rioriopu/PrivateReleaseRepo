@@ -297,5 +297,42 @@
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
     "DownloadCount": 0
+  },
+  {
+    "Name": "bozjalone-Dev",
+    "InternalName": "bozjalone-Dev",
+    "Author": "Faye",
+    "AssemblyVersion": "3.1.3.0",
+    "TestingAssemblyVersion": "3.1.3.0",
+    "RepoUrl": "https://github.com/rioriopu/PrivateReleaseRepo",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "Tags": [
+      "bozjalone",
+      "Bozja",
+      "Zadnor",
+      "Southern Front",
+      "Illegal",
+      "Critical Engagement",
+      "Fate",
+      "Skirmish"
+    ],
+    "CategoryTags": [
+      "Utility"
+    ],
+    "Punchline": "ボズヤ南方前線／ザトゥノル高原の自動周回ヘルパー。",
+    "Description": "bozjalone はボズヤ南方前線・ザトゥノル高原での周回を自動化します(OhKannaDuh/BozjaAlone の派生・Faye)。\n- 一番近いスカーミッション(FATE)へ自動で移動し、RSRで自動戦闘。\n- 死亡・蘇生・デジョン・マウントの自動処理。\n- 仮設エーテライトでの拠点間転送に対応(ザトゥノル)。\n- 必要プラグイン: vnavmesh / Lifestream / RotationSolver Reborn\n\n/bozjalone で操作ウィンドウを開きます。",
+    "IconUrl": "https://raw.githubusercontent.com/OhKannaDuh/BozjaAlone/refs/heads/master/assets/icon.png",
+    "ImageUrls": [],
+    "Changelog": "3.1.3: ザトゥノル拠点名(イジェバン陣地/アルマヴィル陣地)がゲームデータ上正しいことを検証。仮設エーテライトの行き先メニュー選択を双方向部分一致＋空白除去に変更(表記揺れ対策)。インタラクトしてもメニューが開かない取りこぼし時に最大2回まで再インタラクトするよう改善。",
+    "DownloadLinkInstall": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/bozjalone-Dev-3.1.3/bozjalone-Dev.zip",
+    "DownloadLinkUpdate": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/bozjalone-Dev-3.1.3/bozjalone-Dev.zip",
+    "DownloadLinkTesting": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/bozjalone-Dev-3.1.3/bozjalone-Dev.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
+    "DownloadCount": 0
   }
 ]
