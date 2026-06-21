@@ -334,5 +334,44 @@
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
     "DownloadCount": 0
+  },
+  {
+    "Name": "AutoDuty (forked by Estell)",
+    "InternalName": "AutoDuty",
+    "Author": "Herculezz, erdelf (forked by Estell)",
+    "AssemblyVersion": "0.0.0.1",
+    "TestingAssemblyVersion": "0.0.0.1",
+    "RepoUrl": "https://github.com/rioriopu/AutoDuty",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "Tags": [
+      "duty",
+      "dungeon",
+      "trust",
+      "automation"
+    ],
+    "CategoryTags": [
+      "Utility"
+    ],
+    "Punchline": "ダンジョンを自動攻略するプラグイン (KouGithub2022 フォーク版)",
+    "Description": "AutoDuty は Trust (フェイス) / Duty Support (ジョブ別サポート) / Squadrons (蛮族部隊) / Variants / 通常パーティで、ダンジョンの移動・戦闘・進行を自動化するプラグインです。\n\n本パッケージは KouGithub2022/AutoDuty フォークを Estell 環境向けにビルドした派生版です (機能は本家と同一)。\n\n■ 必要な前提プラグイン\n- BossMod (または BossModReborn)\n- vnavmesh\n- 回転プラグインのいずれか (Wrath Combo / BossMod AutoRotation / RotationSolverReborn)\n\n■ コマンド\n/autoduty 設定ウィンドウを開く\n\n■ ソース\nhttps://github.com/rioriopu/AutoDuty",
+    "IconUrl": "https://s3.puni.sh/media/plugin/54/icon-15ug2vnr9m1.png",
+    "ImageUrls": [
+      "https://s3.puni.sh/media/plugin/54/image-15l1o9gf3yg.png",
+      "https://s3.puni.sh/media/plugin/54/image-gc84lu4pdpb.png",
+      "https://s3.puni.sh/media/plugin/54/image-vkvtqki3ggh.png",
+      "https://s3.puni.sh/media/plugin/54/image-pw9lcsan22.png",
+      "https://s3.puni.sh/media/plugin/54/image-5lu04i95hz8.png"
+    ],
+    "Changelog": "0.0.0.1: KouGithub2022/AutoDuty フォークの初回リリース。Dalamud API Level 15 向けに再ビルド (機能・挙動は本家と同一)。プラグイン名に『forked by Estell』を付与。",
+    "DownloadLinkInstall": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/AutoDuty-0.0.0.1/AutoDuty.zip",
+    "DownloadLinkUpdate": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/AutoDuty-0.0.0.1/AutoDuty.zip",
+    "DownloadLinkTesting": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/AutoDuty-0.0.0.1/AutoDuty.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
+    "DownloadCount": 0
   }
 ]
