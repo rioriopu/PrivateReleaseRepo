@@ -375,9 +375,9 @@
     "DownloadCount": 0
   },
   {
-    "Name": "HoardFarm (forked by rioriopu)",
+    "Name": "HoardFarm (forked by Estell)",
     "InternalName": "HoardFarm",
-    "Author": "Jukkales (forked by rioriopu)",
+    "Author": "Jukkales (forked by Estell)",
     "AssemblyVersion": "1.6.0.3",
     "TestingAssemblyVersion": "1.6.0.3",
     "RepoUrl": "https://github.com/rioriopu/HoardFarm",
@@ -396,10 +396,10 @@
       "Utility"
     ],
     "Punchline": "ディープダンジョンの「呪われた秘宝」を自動で集めるプラグイン",
-    "Description": "HoardFarm は 天国の高層 (Heaven-on-High) を周回し、呪われた秘宝 (Accursed Hoard) を自動で探索・回収するプラグインです。アチーブメント「For the Hoard」系の取得を支援します。\n\n本パッケージは 本家 Jukkales/HoardFarm を rioriopu がフォークし、現在の Dalamud (API 15 / Dalamud 15.x・net10.0) に対応させたものです。AutoRetainerAPI 連携も最新版に追従しています。\n\n■ 必要な前提プラグイン\n- vnavmesh\n\n■ コマンド\n/hoardfarm 設定ウィンドウを開く\n\n■ ソース\nhttps://github.com/rioriopu/HoardFarm",
+    "Description": "HoardFarm は 天国の高層 (Heaven-on-High) を周回し、呪われた秘宝 (Accursed Hoard) を自動で探索・回収するプラグインです。アチーブメント「For the Hoard」系の取得を支援します。\n\n本パッケージは 本家 Jukkales/HoardFarm を Estell がフォークし、現在の Dalamud (API 15 / Dalamud 15.x・net10.0) に対応させたものです。AutoRetainerAPI 連携も最新版に追従しています。\n\n■ 必要な前提プラグイン\n- vnavmesh\n\n■ コマンド\n/hoardfarm 設定ウィンドウを開く\n\n■ ソース\nhttps://github.com/rioriopu/HoardFarm",
     "IconUrl": "https://raw.githubusercontent.com/rioriopu/HoardFarm/main/icon.png",
     "ImageUrls": [],
-    "Changelog": "1.6.0.3: 本家 Jukkales/HoardFarm v1.6.0.2 から一つバージョンを上げた rioriopu フォーク。Dalamud API 15 / Dalamud 15.x (net10.0) 対応の再ビルド。AutoRetainerAPI を最新版に追従 (ECommons 3.2.0.11)。API 変更への追従: IClientState.TerritoryChanged の引数 ushort→uint、IChatGui.ChatMessage を IHandleableChatMessage ベースの新デリゲートへ移行、FFXIVClientStructs の ValueType を AtkValueType に更新。",
+    "Changelog": "1.6.0.3: 本家 Jukkales/HoardFarm v1.6.0.2 から一つバージョンを上げた Estell フォーク。Dalamud API 15 / Dalamud 15.x (net10.0) 対応の再ビルド。AutoRetainerAPI を最新版に追従 (ECommons 3.2.0.11)。API 変更への追従: IClientState.TerritoryChanged の引数 ushort→uint、IChatGui.ChatMessage を IHandleableChatMessage ベースの新デリゲートへ移行、FFXIVClientStructs の ValueType を AtkValueType に更新。",
     "DownloadLinkInstall": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/HoardFarm-1.6.0.3/HoardFarm.zip",
     "DownloadLinkUpdate": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/HoardFarm-1.6.0.3/HoardFarm.zip",
     "DownloadLinkTesting": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/HoardFarm-1.6.0.3/HoardFarm.zip",
