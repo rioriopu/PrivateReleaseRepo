@@ -1,4 +1,38 @@
-﻿[
+[
+  {
+    "Name": "Auto Collector",
+    "InternalName": "AutoCollector",
+    "Author": "rioriopu",
+    "AssemblyVersion": "0.1.0.0",
+    "TestingAssemblyVersion": "0.1.0.0",
+    "RepoUrl": "https://github.com/rioriopu/PrivateReleaseRepo",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "Tags": [
+      "automation",
+      "currency",
+      "exchange",
+      "tomestone",
+      "autoduty"
+    ],
+    "CategoryTags": [
+      "Utility"
+    ],
+    "Punchline": "通貨が貯まったら自動で交換所へ行って交換する",
+    "Description": "Auto Collector はトームストーンなどの通貨が閾値へ到達したら、交換所まで自動で移動してアイテムと交換するプラグインです。\nAutoDuty の周回に相乗りする形で動き、周回の切れ目で交換を行って周回へ戻します。\n\n機能:\n- 通貨の閾値監視（固定値 / 所持上限に対する割合 / 上限までの残り）\n- 交換先の自動解決（交換情報はハードコードせず、ゲームデータから実行時に解決）\n- テレポート・エーテライト網・徒歩を組み合わせた交換所までの移動\n- 交換の成否を「通貨が減った かつ アイテムが増えた」で検証\n- AutoDuty の周回維持と、手動停止の判別\n- AutoRetainer との協調（抑制のみ。実行中の処理は中断しません）\n\n連携プラグイン（いずれも任意）: AutoDuty / vnavmesh / Lifestream / AutoRetainer / Artisan\n\nコマンド:\n/autocollector 設定画面を開きます。短縮は /acc です。\n/acc stop で緊急停止します。",
+    "IconUrl": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/icons/AutoCollector.png",
+    "ImageUrls": [],
+    "Changelog": "0.1.0.0: 初回リリース。通貨の閾値監視、交換所の自動解決と移動、交換の実行と検証、AutoDuty の周回維持（手動停止の判別つき）、AutoRetainer の協調的な抑制に対応。",
+    "DownloadLinkInstall": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/AutoCollector-0.1.0.0/AutoCollector.zip",
+    "DownloadLinkUpdate": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/AutoCollector-0.1.0.0/AutoCollector.zip",
+    "DownloadLinkTesting": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/AutoCollector-0.1.0.0/AutoCollector.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
+    "DownloadCount": 0
+  },
   {
     "Name": "Mirage Mirror",
     "InternalName": "MirageMirror",
