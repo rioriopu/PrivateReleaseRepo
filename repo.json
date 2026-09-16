@@ -477,5 +477,39 @@
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
     "DownloadCount": 0
+  },
+  {
+    "Name": "MogColle EndlessBattle",
+    "InternalName": "MogColleEndlessBattle",
+    "Author": "ヌルさん",
+    "AssemblyVersion": "0.1.0.0",
+    "TestingAssemblyVersion": "0.1.0.0",
+    "RepoUrl": "https://github.com/rioriopu/PrivateReleaseRepo",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "Tags": [
+      "automation",
+      "autoduty",
+      "duty",
+      "farming",
+      "mogcolle"
+    ],
+    "CategoryTags": [
+      "Utility"
+    ],
+    "Punchline": "モグコレ周回の一括設定",
+    "Description": "MogColle EndlessBattle は「アルテマウェポン破壊作戦」(1048) の固定4人周回を、ボタン1つで準備するプラグインです。\nAutoDuty の設定を役割（パーティーリーダー / パーティーメンバー）ごとにまとめて整え、そのまま周回を回し続けます。\n\n機能:\n- パーティーリーダー / パーティーメンバーの一括設定（AutoDuty の設定を役割に合わせてまとめて変更）\n- 必要なプラグインの導入・有効状態を画面に表示（足りないものがひと目で分かります）\n- 周回の維持（1周終わるごとに次の突入を指示するため、AutoDuty の周回回数の設定に左右されません）\n- コンテンツ参加確認の自動承諾（YesAlready なしで動作します）\n- 突入時・討伐後のコマンド実行（CBT なしで動作します）\n- 退出後に最寄りの呼び鈴まで自分で歩いてアクセス（キャラクターごとに ON / OFF できます）\n- 自己修理用ダークマターの残数が少なくなったら知らせます\n\n役割と「呼び鈴へアクセス」はキャラクターごとに保存するため、1台で複数キャラクターを動かしても設定が混ざりません。\n\n必要なプラグイン: AutoDuty / vnavmesh / BossModReborn / SkipCutscene\n任意: RotationSolver Reborn / AutoRetainer\n\nコマンド:\n/mogc 設定画面を開きます。/mceb でも同じです。",
+    "IconUrl": "https://raw.githubusercontent.com/rioriopu/PrivateReleaseRepo/main/icons/MogColleEndlessBattle.png",
+    "ImageUrls": [],
+    "Changelog": "0.1.0.0: 初回リリース。パーティーリーダー / パーティーメンバーの一括設定、必要なプラグインの確認、周回の維持、コンテンツ参加確認の自動承諾、突入時・討伐後のコマンド実行、退出後の呼び鈴アクセス、自己修理用ダークマターの残数警告に対応。",
+    "DownloadLinkInstall": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/MogColleEndlessBattle-0.1.0.0/MogColleEndlessBattle.zip",
+    "DownloadLinkUpdate": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/MogColleEndlessBattle-0.1.0.0/MogColleEndlessBattle.zip",
+    "DownloadLinkTesting": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/MogColleEndlessBattle-0.1.0.0/MogColleEndlessBattle.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
+    "DownloadCount": 0
   }
 ]
