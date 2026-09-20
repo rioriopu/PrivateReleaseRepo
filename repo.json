@@ -506,7 +506,7 @@
     "DownloadLinkInstall": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/MogColleEndlessBattle-0.1.0.0/MogColleEndlessBattle.zip",
     "DownloadLinkUpdate": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/MogColleEndlessBattle-0.1.0.0/MogColleEndlessBattle.zip",
     "DownloadLinkTesting": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/MogColleEndlessBattle-0.1.0.0/MogColleEndlessBattle.zip",
-    "IsHide": false,
+    "IsHide": true,
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
