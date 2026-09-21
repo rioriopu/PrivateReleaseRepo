@@ -1,0 +1,35 @@
+name: DownloadCount 更新
+
+# repo.json の DownloadCount を GitHub Releases の実ダウンロード数で更新する。
+# Dalamud のプラグインインストーラーは DownloadCount が 0 より大きいときだけ
+# 「by 作者 (1,234 downloads)」と表示するため、定期的に実数を書き込む。
+
+on:
+  schedule:
+    # 毎日 12:17 JST (03:17 UTC)
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: ダウンロード数を取得して repo.json を更新
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update_download_counts.py
+
+      - name: 変更があればコミット
+        run: |
+          if [ -z "$(git status --porcelain repo.json)" ]; then
+            echo "変更なし"
+            exit 0
+          fi
+          git -c user.name=rioriopu -c user.email=rioriopuu@gmail.com \
+              commit -m "chore: DownloadCount を更新" repo.json
+          git push
