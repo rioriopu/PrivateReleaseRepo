@@ -511,5 +511,38 @@
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
     "DownloadCount": 34
+  },
+  {
+    "Name": "AutoJobQuest",
+    "InternalName": "AutoJobQuest",
+    "Author": "Estell",
+    "AssemblyVersion": "0.1.0.0",
+    "TestingAssemblyVersion": "0.1.0.0",
+    "RepoUrl": "https://github.com/rioriopu/AutoJobQuest",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "Tags": [
+      "crafting",
+      "gathering",
+      "quest",
+      "automation"
+    ],
+    "CategoryTags": [
+      "Utility"
+    ],
+    "Punchline": "製作・採集のジョブクエ（Lv1〜70）を素材集めから報告まで自動で進める",
+    "Description": "木工〜調理の8職と採掘・園芸・漁師のジョブクエ（Lv1〜70）を自動で進めます。足りない素材をリテイナー・マーケットボード・NPC 購入・戦闘・採集・精選・釣りで集め、未読の秘伝書は収集品の納品で得た紫貨で交換し、グリダニアの宿屋で製作・マテリア装着をして、Questionable でクエストを受注・報告します。\n\n選んだ職が Lv70 以上、製作職の装備が Lv68 以上であることなどが開始の条件です。マーケットボードの自動購入でギルを使います。\n\nArtisan・GatherBuddyReborn・vnavmesh・AutoHook・Lifestream・Questionable・RotationSolverReborn・TextAdvance・BossModReborn・Allagan Tools（または Allagan Item Search）が必要です。",
+    "IconUrl": "",
+    "ImageUrls": [],
+    "Changelog": "0.1.0.0: 初回公開。製作8職と採集3職のジョブクエ（Lv1〜70）を、素材集めから報告まで自動で進めます。詳しい記録（ログ）をファイルに残す機能は既定で OFF です（デバッグタブで ON にできます）。",
+    "DownloadLinkInstall": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/AutoJobQuest-0.1.0.0/AutoJobQuest.zip",
+    "DownloadLinkUpdate": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/AutoJobQuest-0.1.0.0/AutoJobQuest.zip",
+    "DownloadLinkTesting": "https://github.com/rioriopu/PrivateReleaseRepo/releases/download/AutoJobQuest-0.1.0.0/AutoJobQuest.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "AcceptsFeedback": true,
+    "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
+    "DownloadCount": 0
   }
 ]
