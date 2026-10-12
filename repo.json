@@ -31,7 +31,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 211
+    "DownloadCount": 216
   },
   {
     "Name": "Mirage Mirror",
@@ -93,7 +93,7 @@
     "IsTestingExclusive": true,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 111
+    "DownloadCount": 113
   },
   {
     "Name": "Masked Carnivale",
@@ -129,7 +129,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 385
+    "DownloadCount": 386
   },
   {
     "Name": "Masked Dalamud",
@@ -165,7 +165,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 5759
+    "DownloadCount": 5813
   },
   {
     "Name": "AetherBars",
@@ -233,7 +233,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 56
+    "DownloadCount": 57
   },
   {
     "Name": "TradeVendor",
@@ -330,7 +330,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 1132
+    "DownloadCount": 1147
   },
   {
     "Name": "Bozjalone",
@@ -367,7 +367,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 283
+    "DownloadCount": 287
   },
   {
     "Name": "AutoDuty (forked by Estell)",
@@ -406,7 +406,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 279
+    "DownloadCount": 283
   },
   {
     "Name": "HoardFarm (forked by Estell)",
@@ -441,7 +441,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 118
+    "DownloadCount": 122
   },
   {
     "Name": "DalamudCNAdapter forked by Estell",
@@ -476,7 +476,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 279
+    "DownloadCount": 294
   },
   {
     "Name": "AetherCompass2",
@@ -510,7 +510,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 39
+    "DownloadCount": 41
   },
   {
     "Name": "AutoJobQuest",
@@ -543,6 +543,6 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 32
+    "DownloadCount": 36
   }
 ]
