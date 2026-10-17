@@ -31,7 +31,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 255
+    "DownloadCount": 261
   },
   {
     "Name": "Mirage Mirror",
@@ -93,7 +93,7 @@
     "IsTestingExclusive": true,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 120
+    "DownloadCount": 122
   },
   {
     "Name": "Masked Carnivale",
@@ -129,7 +129,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 388
+    "DownloadCount": 390
   },
   {
     "Name": "Masked Dalamud",
@@ -165,7 +165,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 6024
+    "DownloadCount": 6044
   },
   {
     "Name": "AetherBars",
@@ -198,7 +198,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 126
+    "DownloadCount": 127
   },
   {
     "Name": "MidiBard 2 (Alliance)",
@@ -233,7 +233,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 59
+    "DownloadCount": 61
   },
   {
     "Name": "TradeVendor",
@@ -300,7 +300,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues (rioriopu/VIWI-JP) でフィードバックをお寄せください。",
-    "DownloadCount": 75
+    "DownloadCount": 76
   },
   {
     "Name": "Ice's Cosmic Exploration - forked by Estell",
@@ -330,7 +330,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 1246
+    "DownloadCount": 1249
   },
   {
     "Name": "Bozjalone",
@@ -367,7 +367,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 297
+    "DownloadCount": 300
   },
   {
     "Name": "AutoDuty (forked by Estell)",
@@ -406,7 +406,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 291
+    "DownloadCount": 293
   },
   {
     "Name": "HoardFarm (forked by Estell)",
@@ -476,7 +476,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 321
+    "DownloadCount": 327
   },
   {
     "Name": "AetherCompass2",
@@ -543,6 +543,6 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 43
+    "DownloadCount": 45
   }
 ]
