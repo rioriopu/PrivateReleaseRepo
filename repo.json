@@ -31,7 +31,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 279
+    "DownloadCount": 301
   },
   {
     "Name": "Mirage Mirror",
@@ -63,7 +63,7 @@
     "IsTestingExclusive": true,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 193
+    "DownloadCount": 194
   },
   {
     "Name": "Artisan",
@@ -129,7 +129,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 392
+    "DownloadCount": 393
   },
   {
     "Name": "Masked Dalamud",
@@ -165,7 +165,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 6095
+    "DownloadCount": 6109
   },
   {
     "Name": "AetherBars",
@@ -330,7 +330,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 1256
+    "DownloadCount": 1258
   },
   {
     "Name": "Bozjalone",
@@ -367,7 +367,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 308
+    "DownloadCount": 312
   },
   {
     "Name": "AutoDuty (forked by Estell)",
@@ -406,7 +406,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 300
+    "DownloadCount": 301
   },
   {
     "Name": "HoardFarm (forked by Estell)",
@@ -441,7 +441,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 125
+    "DownloadCount": 126
   },
   {
     "Name": "DalamudCNAdapter forked by Estell",
@@ -476,7 +476,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 338
+    "DownloadCount": 341
   },
   {
     "Name": "AetherCompass2",
@@ -510,7 +510,7 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 50
+    "DownloadCount": 51
   },
   {
     "Name": "AutoJobQuest",
@@ -543,6 +543,6 @@
     "IsTestingExclusive": false,
     "AcceptsFeedback": true,
     "FeedbackMessage": "GitHub Issues でフィードバックをお寄せください。",
-    "DownloadCount": 47
+    "DownloadCount": 50
   }
 ]
